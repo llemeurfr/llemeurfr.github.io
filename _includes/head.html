@@ -6,19 +6,15 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-  <style>
-@import url("http://readium.org/modules/system/system.base.css?o9jb7p");
-@import url("http://readium.org/sites/all/modules/date/date_api/date.css?o9jb7p");
-@import url("http://readium.org/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?o9jb7p");
-@import url("http://readium.org/modules/field/theme/field.css?o9jb7p");
-@import url("http://readium.org/modules/node/node.css?o9jb7p");
-@import url("http://readium.org/sites/all/modules/views/css/views.css?o9jb7p");
-@import url("http://readium.org/sites/all/modules/ctools/css/ctools.css?o9jb7p");
-  </style>
-  <style>
-@import url("http://readium.org/sites/all/themes/readium/css/fonts.css?o9jb7p");
-@import url("http://readium.org/sites/all/themes/readium/css/styles.css?o9jb7p");
-  </style>
+  <link rel="stylesheet" type="text/css" href="http://readium.org/modules/system/system.base.css?o9jb7p"/>
+  <link rel="stylesheet" type="text/css" href="http://readium.org/sites/all/modules/date/date_api/date.css?o9jb7p"/>
+  <link rel="stylesheet" type="text/css" href="http://readium.org/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?o9jb7p"/>
+  <link rel="stylesheet" type="text/css" href="http://readium.org/modules/field/theme/field.css?o9jb7p"/>
+  <link rel="stylesheet" type="text/css" href="http://readium.org/modules/node/node.css?o9jb7p"/>
+  <link rel="stylesheet" type="text/css" href="http://readium.org/sites/all/modules/views/css/views.css?o9jb7p"/>
+  <link rel="stylesheet" type="text/css" href="http://readium.org/sites/all/modules/ctools/css/ctools.css?o9jb7p"/>
+  <link rel="stylesheet" type="text/css" href="http://readium.org/sites/all/themes/readium/css/fonts.css?o9jb7p"/>
+  <link rel="stylesheet" type="text/css" href="http://readium.org/sites/all/themes/readium/css/styles.css?o9jb7p"/>
   <!-- HTML5 element support for IE6-8 -->
   <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
