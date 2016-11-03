@@ -6,36 +6,36 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-  <link rel="stylesheet" type="text/css" href="http://readium.org/modules/system/system.base.css?o9jb7p"/>
-  <link rel="stylesheet" type="text/css" href="http://readium.org/sites/all/modules/date/date_api/date.css?o9jb7p"/>
-  <link rel="stylesheet" type="text/css" href="http://readium.org/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?o9jb7p"/>
-  <link rel="stylesheet" type="text/css" href="http://readium.org/modules/field/theme/field.css?o9jb7p"/>
-  <link rel="stylesheet" type="text/css" href="http://readium.org/modules/node/node.css?o9jb7p"/>
-  <link rel="stylesheet" type="text/css" href="http://readium.org/sites/all/modules/views/css/views.css?o9jb7p"/>
-  <link rel="stylesheet" type="text/css" href="http://readium.org/sites/all/modules/ctools/css/ctools.css?o9jb7p"/>
-  <link rel="stylesheet" type="text/css" href="http://readium.org/sites/all/themes/readium/css/fonts.css?o9jb7p"/>
-  <link rel="stylesheet" type="text/css" href="http://readium.org/sites/all/themes/readium/css/styles.css?o9jb7p"/>
+  <link rel="stylesheet" type="text/css" href="/css/system.base.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/date.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/datepicker.1.7.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/field.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/node.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/views.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/ctools.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/fonts.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
   <!-- HTML5 element support for IE6-8 -->
   <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-  <script src="http://readium.org/sites/all/modules/jquery_update/replace/jquery/1.11/jquery.min.js?v=1.11.2"></script>
-  <script src="http://readium.org/misc/jquery.once.js?v=1.2"></script>
+  <script src="/js/jquery.min.js?v=1.11.2"></script>
+  <script src="/js/jquery.once.js?v=1.2"></script>
 
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
   {% endif %}
 
-  <script src="http://readium.org/sites/all/themes/readium/js/vendor/bootstrap/affix.js?o9jb7p"></script>
-  <script src="http://readium.org/sites/all/themes/readium/js/vendor/bootstrap/alert.js?o9jb7p"></script>
-  <script src="http://readium.org/sites/all/themes/readium/js/vendor/bootstrap/button.js?o9jb7p"></script>
-  <script src="http://readium.org/sites/all/themes/readium/js/vendor/bootstrap/carousel.js?o9jb7p"></script>
-  <script src="http://readium.org/sites/all/themes/readium/js/vendor/bootstrap/collapse.js?o9jb7p"></script>
-  <script src="http://readium.org/sites/all/themes/readium/js/vendor/bootstrap/dropdown.js?o9jb7p"></script>
-  <script src="http://readium.org/sites/all/themes/readium/js/vendor/bootstrap/modal.js?o9jb7p"></script>
-  <script src="http://readium.org/sites/all/themes/readium/js/vendor/bootstrap/tooltip.js?o9jb7p"></script>
-  <script src="http://readium.org/sites/all/themes/readium/js/vendor/bootstrap/popover.js?o9jb7p"></script>
-  <script src="http://readium.org/sites/all/themes/readium/js/vendor/bootstrap/scrollspy.js?o9jb7p"></script>
-  <script src="http://readium.org/sites/all/themes/readium/js/vendor/bootstrap/tab.js?o9jb7p"></script>
-  <script src="http://readium.org/sites/all/themes/readium/js/vendor/bootstrap/transition.js?o9jb7p"></script>
+  <script src="/js/bootstrap/affix.js"></script>
+  <script src="/js/bootstrap/alert.js"></script>
+  <script src="/js/bootstrap/button.js"></script>
+  <script src="/js/bootstrap/carousel.js"></script>
+  <script src="/js/bootstrap/collapse.js"></script>
+  <script src="/js/bootstrap/dropdown.js"></script>
+  <script src="/js/bootstrap/modal.js"></script>
+  <script src="/js/bootstrap/tooltip.js"></script>
+  <script src="/js/bootstrap/popover.js"></script>
+  <script src="/js/bootstrap/scrollspy.js"></script>
+  <script src="/js/bootstrap/tab.js"></script>
+  <script src="/js/bootstrap/transition.js"></script>
 </head>
