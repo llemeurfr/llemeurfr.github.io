@@ -1180,7 +1180,7 @@ Reading Systems <b>MUST</b>:
 
 1. Validate the syntax and completeness of the License Document.
 
-2. Validate the signature as defined in [5.5. Verifying the signature](#verifying-the-signature).
+2. Validate the signature as defined in [5.5. Validating the certificate and signature](#validating-the-certificate-and-signature).
 
 ### Acquiring the Publication
 
@@ -1220,7 +1220,7 @@ Reading Systems <b>MUST NOT</b>:
 
 Reading Systems <b>MUST</b>:
 
-* Validate the Signature and Provider Certificate as described in [5.5. Verifying the signature](#verifying-the-signature).
+* Validate the Signature and Provider Certificate as described in [5.5. Validating the certificate and signature](#validating-the-certificate-and-signature).
 
 * Update the Certification Revocation List on a regular basis.
 
